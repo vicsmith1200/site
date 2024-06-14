@@ -1,0 +1,179 @@
+*{ margin: 0;
+box-sizing: border-box;}
+
+
+header{ width: 15%;
+background-color: black;
+color: white;
+height: 100vh;
+padding-left: 22px;
+padding-top: 20px;
+font-size: larger;
+position: sticky;
+top: 0;
+
+
+}
+#p1{color: black;}
+#welcome{ 
+    background-image: url(https://preview.colorlib.com/theme/elit/images/img_9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+    
+    
+
+}
+body{display: flex;
+margin: 0;
+background-color: black;}
+#p2{text-align: center;
+font-size: 80px;
+color: white;}
+main{ 
+    width: 85%;
+   
+}
+#paa{color: transparent;}
+
+#button1{border-radius: 30px;
+height: 50px;
+width: 170px;
+background-color: #df0e62;
+border-color: #df0e62;}
+
+#button1:hover {background-color: #BB0C52;border-color: #BB0C52;}
+#svg1:hover {fill:#BB0C52 ;}
+#svg2:hover {fill:#BB0C52 ;}
+
+.Pb{color: white;
+font-size: larger;}
+.Mp{margin-top: 10px;}
+svg{ height: 20px;
+width: 20px;
+fill: white;
+}
+#svg1{margin-left: 15px;}
+#img1{object-fit: cover; width: 33%; margin-right: 0.5vh;
+    animation-name: doido;
+    animation-duration: 4s;
+ 
+}
+@keyframes doido {
+    from{opacity: 0; }
+    to{opacity: 1;}
+    
+}
+
+
+
+#img1:hover {
+    opacity: 0.5;
+}
+#img02:hover {
+    opacity: 0.5;
+}
+#img03:hover {
+    opacity: 0.5;
+}
+
+
+
+
+#sec2{display: flex;}
+#sec3{display: flex;margin-top: 0.5vh;}
+#img02{margin-right: 0.5vh;
+ width: 33%;
+ animation-name: doido;
+    animation-duration: 4s;
+    object-fit: cover;
+}
+#img03{width: 33%;object-fit: cover; animation-name: doido;
+    animation-duration: 4s;}
+#testimonial{text-align: center; color: white;font-size: 80px;margin-top: 10vh;}
+#p3{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+}
+#Djean{color: white; font-size: 20px; }
+#divjean{display: flex;
+    justify-content: space-between;
+ height: 5vh;
+ width: 70vh;
+}
+#divLP{ text-align: center; color: gray;font-size: 20px;}
+button{background-color: gray;}
+#imgP{border-radius: 360px; width: 170px;}
+#secg{background-color: #1a1a1a; height: 1000px;display: flex; flex-direction: column; width: 100%; height: 150vh;}
+#idb{color: white; font-size: 100px; margin-left: 40vh;margin-top: 8vh;}
+#dp2{width: 300px;margin-left: 40vh; margin-top: 70px;}
+#divhi{color: white;font-size: 50px; margin-left: 40vh;margin-top: 3vh;}
+#divl2{ color: gray;font-size: 18px;margin-left: 40vh;}
+.dl2{margin-top: 1vh;}
+.dl3{margin-top: 2vh;}
+.divcorrect{display: flex;justify-content: space-evenly;margin-right: 90vh;}
+#svg4{fill: green}
+.divcorrectp{margin-top: 7vh;}
+.divcorrectl{margin-top: 2vh;}
+#divb{ margin-left: 40vh ; color: white; margin-top: 20vh; font-size: 40px;}
+#divimagem{margin-left: 39vh;}
+#imm{width: 230px; object-fit: cover;}
+#divc{margin-top: 7vh; }
+#divc{display:flex ;}
+#divtexto{color: white; width: 70vh;height: 5vh; margin-left: 50px;}
+#dd1{font-size: 20px;}
+#dd2{font-size: 15px;margin-top: 1.5vh;color: gray;}
+#dd3{font-size: 15px;margin-top: 0.5vh;color: gray;}
+#dd4{font-size: 15px;margin-top: 0.3vh;color: gray;}
+#divn{margin-top: 15vh; color: white;display: flex;;margin-right: 15vh; gap: 30px; justify-content: center; color: #BB0C52;height: 20vh;}
+#secg2{width: 100%; height: 110vh; background-color: #1a1a1a;display: flex; flex-direction: column;border-top: 10vh;}
+#divcontact{margin-left: 39vh ; margin-top: 14vh;color: white;font-size: 40px;}
+#cc1{font-size: 20px;margin-top: 4.5vh;color: white;margin-left: 39vh ;}
+#dfc{display: flex;}
+#divemail{font-size: 20px;margin-top: 4.5vh;color: white;margin-left: 39vh ;}
+#cc2{font-size: 20px;margin-top: 4.5vh;color: grey;margin-left: 39vh ;}
+#cc3{font-size: 20px;margin-top: 15vh;color: white;margin-left: 39vh ;}
+.button1{border-radius: 30px;
+    height: 50px;
+    width: 180px;
+    background-color: #df0e62;
+    border-color: #df0e62;}
+    
+#button1:hover {background-color: #BB0C52;border-color: #BB0C52;}
+#cc4{font-size: 15px;margin-top: 4.5vh;color: white;margin-left: 39vh ;}
+#cc5{font-size: 17px;margin-top: 4.5vh;color: white;margin-left: 55vh ;}
+#divespaco{width: 50vh; height: 5vh;}
+.Mp:hover {color: #BB0C52;}
+
+#divt{
+    position: relative; margin: 0;margin-right: 0.5vh;
+}
+
+#divt svg {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 1s;
+}
+
+#divt:hover svg {
+    top: 50%;
+    opacity: 1;
+}
+#divt{width: 33%;}
+#img11{object-fit: cover; width: 100%;}
+#img11:hover {
+    opacity: 0.5;
+}
